@@ -1,0 +1,18 @@
+﻿  RgbImage.cpp
+  Project.cpp
+  Generating Code...
+Project.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+Project.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+Project.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowPosition referenced in function main
+Project.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+Project.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+Project.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+Project.obj : error LNK2019: unresolved external symbol __imp_glutPostRedisplay referenced in function "void __cdecl SpecialKeys(int,int,int)" (?SpecialKeys@@YAXHHH@Z)
+Project.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "void __cdecl drawScene(void)" (?drawScene@@YAXXZ)
+Project.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+Project.obj : error LNK2019: unresolved external symbol __imp_glutReshapeFunc referenced in function main
+Project.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardFunc referenced in function main
+Project.obj : error LNK2019: unresolved external symbol __imp_glutSpecialFunc referenced in function main
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: unresolved external symbol WinMain referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\UNIVERSITY\HARMADEV\ELSOFELEV\Grafika GYAK\Labor1\Project\x64\Debug\Project.exe : fatal error LNK1120: 13 unresolved externals
